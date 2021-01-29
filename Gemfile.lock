@@ -217,6 +217,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
+  devise
   devise-bootstrap-views (~> 1.0)
   devise-i18n
   gon
