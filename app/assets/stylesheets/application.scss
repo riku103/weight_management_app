@@ -31,3 +31,7 @@ div.alert-notice {
 div.alert-alert {
   @extend .alert-danger;
 }
+
+.mw-md {
+  max-width: 576px;
+}
