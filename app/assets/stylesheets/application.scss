@@ -32,6 +32,11 @@ div.alert-alert {
   @extend .alert-danger;
 }
 
+// 横幅を指定
 .mw-md {
   max-width: 576px;
+}
+
+.mw-xl {
+  max-width: 1200px;
 }
