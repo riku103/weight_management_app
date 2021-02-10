@@ -16,4 +16,8 @@ module DeviseHelper
     end
     html.html_safe
   end
+
+  def devise_size
+    devise_controller? ? 'mw-md' : 'mw-xl'
+  end
 end
