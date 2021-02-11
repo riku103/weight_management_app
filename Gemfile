@@ -16,8 +16,6 @@ gem 'devise'
 #日本語化
 gem 'rails-i18n', '~> 6.0'
 gem 'devise-i18n'
-#ログイン関連ページにBootstrapを適用するGem
-gem 'devise-bootstrap-views', '~> 1.0'
 #コントローラからJavascriptに変数を渡せるようにする
 gem 'gon'
 
