@@ -18,7 +18,9 @@
       <%= render 'shared/flash_messages' %>
     <% end %>
     <div class="graph-container">
-    <%= yield %>
+    <div class="container-fluid py-4 <%= devise_size %>">
+      <%= yield %>
+    </div>
     </div>
   </body>
 </html>
